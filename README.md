@@ -29,8 +29,8 @@ Setup
 
 Als erstes holt ihr euch das Script aus dem Repo:
 
-	$ cd /path/to/install
-	$ git clone git://github.com/starflow/upimage.git
+        $ cd /path/to/install
+        $ git clone git://github.com/starflow/upimage.git
 
 Dann müsst ihr dem Script eigentlich nurnoch Rechte zum Ausführen geben:
         
