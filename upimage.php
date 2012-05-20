@@ -34,7 +34,6 @@ function up2gp( $image ) {
     curl_setopt( $curl, CURLOPT_POST, true );
     curl_setopt( $curl, CURLOPT_POSTFIELDS, array( 'image' => "@" . $image ) );
     curl_setopt( $curl, CURLOPT_RETURNTRANSFER, true );
-    curl_setopt( $curl, CURLOPT_FOLLOWLOCATION, true );
     $json_response = curl_exec( $curl );
     $answer = json_decode( $json_response );
 
